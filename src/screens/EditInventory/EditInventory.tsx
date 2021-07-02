@@ -31,7 +31,7 @@ interface inventoryProps {
 const EditInventory = ({route, navigation}: AppStackNavigationProps) => {
   const {name, totalStock, price, description, refresh} = route.params;
   const modalizeRef = useRef<Modalize>(null);
-  const [isDisabled, setIsDisabled] = useState(true);
+  //const [isDisabledButton, setIsDisabledButton] = useState(true);
   const [nameError, setNameError] = useState(false);
 
   const openModal = () => {
@@ -51,15 +51,19 @@ const EditInventory = ({route, navigation}: AppStackNavigationProps) => {
     const oldInventory = JSON.stringify({name, price, totalStock, description});
     const newInventory = JSON.stringify(values);
 
-    if (oldInventory === newInventory || values.name === name) {
-      return;
-    }
+    /* if (oldInventory === newInventory) {
+      setIsDisabledButton(true);
+    } else {
+      setIsDisabledButton(false);
+    } */
+
     AsyncStorage.getItem('inventory')
       .then(items => {
         const existing = items ? JSON.parse(items) : [];
         const existingName = existing.filter(function (item: any) {
           return item.name === values.name;
         });
+        console.log(existingName);
         if (existingName.length) {
           setNameError(true);
         } else {
@@ -174,7 +178,7 @@ const EditInventory = ({route, navigation}: AppStackNavigationProps) => {
               <Button
                 title="Update"
                 onPress={handleSubmit}
-                //disabled={isDisabled}
+                //disabled={isDisabledButton}
               />
             </>
           )}

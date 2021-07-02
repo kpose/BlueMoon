@@ -12,10 +12,8 @@ const styles = StyleSheet.create({
     width: wp(95),
     backgroundColor: colors.LIGHT_GRAY,
     borderRadius: wp(2),
-    //alignSelf: 'center',
     marginTop: hp(1),
     marginBottom: hp(2),
-    elevation: hp(10),
   },
   input: {
     width: wp(80),
@@ -25,6 +23,16 @@ const styles = StyleSheet.create({
     marginTop: hp(2),
     backgroundColor: colors.BLACK,
     color: colors.WHITE,
+
+    shadowColor: colors.SECONDARY,
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.34,
+    shadowRadius: 6.27,
+
+    elevation: hp(10),
   },
   description: {
     width: wp(80),
@@ -35,6 +43,15 @@ const styles = StyleSheet.create({
     marginBottom: hp(4),
     backgroundColor: colors.BLACK,
     color: colors.WHITE,
+    shadowColor: colors.SECONDARY,
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.34,
+    shadowRadius: 6.27,
+
+    elevation: hp(10),
   },
   error: {
     color: colors.WARNING,
