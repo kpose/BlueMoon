@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot text of different screens Create screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#8c94a1",
+        "borderRadius": 15,
+        "elevation": 133.5,
+        "height": 934,
+        "marginBottom": 26.5,
+        "marginTop": 13.5,
+        "width": 712.5,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Enter Name"
+      placeholderTextColor="#2A9D8F"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgb(0,0,0)",
+            "borderRadius": 22.5,
+            "color": "rgb(255,255,255)",
+            "height": 93.5,
+            "marginTop": 26.5,
+            "width": 600,
+          },
+          Object {
+            "fontSize": 23,
+          },
+        ]
+      }
+      testID="nameID"
+      textAlign="center"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Total Stock"
+      placeholderTextColor="#2A9D8F"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgb(0,0,0)",
+            "borderRadius": 22.5,
+            "color": "rgb(255,255,255)",
+            "height": 93.5,
+            "marginTop": 26.5,
+            "width": 600,
+          },
+          Object {
+            "fontSize": 23,
+          },
+        ]
+      }
+      testID="totalID"
+      textAlign="center"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Price"
+      placeholderTextColor="#2A9D8F"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgb(0,0,0)",
+            "borderRadius": 22.5,
+            "color": "rgb(255,255,255)",
+            "height": 93.5,
+            "marginTop": 26.5,
+            "width": 600,
+          },
+          Object {
+            "fontSize": 23,
+          },
+        ]
+      }
+      testID="priceID"
+      textAlign="center"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <TextInput
+      allowFontScaling={true}
+      multiline={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Description"
+      placeholderTextColor="#2A9D8F"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "rgb(0,0,0)",
+          "borderRadius": 22.5,
+          "color": "rgb(255,255,255)",
+          "height": 267,
+          "marginBottom": 53.5,
+          "marginTop": 26.5,
+          "width": 600,
+        }
+      }
+      testID="descriptionID"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2A9D8F",
+          "borderRadius": 37.5,
+          "height": 93.5,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 375,
+        }
+      }
+      testID="buttonID"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "bold",
+            },
+            Object {
+              "fontSize": 17,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        Submit
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Snapshot text of different screens Edit screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 23,
+        },
+        Object {
+          "color": "#2A9D8F",
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+     Inventory
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#8c94a1",
+        "borderRadius": 15,
+        "elevation": 133.5,
+        "height": 934,
+        "marginBottom": 26.5,
+        "marginTop": 13.5,
+        "width": 712.5,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholderTextColor="#2A9D8F"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgb(0,0,0)",
+            "borderRadius": 22.5,
+            "color": "rgb(255,255,255)",
+            "height": 93.5,
+            "marginTop": 26.5,
+            "width": 600,
+          },
+          Object {
+            "fontSize": 23,
+          },
+        ]
+      }
+      textAlign="center"
+      underlineColorAndroid="transparent"
+    />
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholderTextColor="#2A9D8F"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgb(0,0,0)",
+            "borderRadius": 22.5,
+            "color": "rgb(255,255,255)",
+            "height": 93.5,
+            "marginTop": 26.5,
+            "width": 600,
+          },
+          Object {
+            "fontSize": 23,
+          },
+        ]
+      }
+      textAlign="center"
+      underlineColorAndroid="transparent"
+    />
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholderTextColor="#2A9D8F"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "rgb(0,0,0)",
+            "borderRadius": 22.5,
+            "color": "rgb(255,255,255)",
+            "height": 93.5,
+            "marginTop": 26.5,
+            "width": 600,
+          },
+          Object {
+            "fontSize": 23,
+          },
+        ]
+      }
+      textAlign="center"
+      underlineColorAndroid="transparent"
+    />
+    <TextInput
+      allowFontScaling={true}
+      multiline={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholderTextColor="#2A9D8F"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "rgb(0,0,0)",
+          "borderRadius": 22.5,
+          "color": "rgb(255,255,255)",
+          "height": 267,
+          "marginBottom": 53.5,
+          "marginTop": 26.5,
+          "width": 600,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2A9D8F",
+          "borderRadius": 37.5,
+          "height": 93.5,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 375,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "bold",
+            },
+            Object {
+              "fontSize": 17,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        Update
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#F84751",
+              "fontWeight": "bold",
+              "marginTop": 40,
+            },
+            Object {
+              "fontSize": 18,
+              "letterSpacing": -0.08,
+            },
+          ]
+        }
+      >
+        Delete this Inventory
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Snapshot text of different screens home screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    Welcome to inventory
+  </Text>
+  <RCTScrollView
+    data={Array []}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2A9D8F",
+        "borderRadius": 100,
+        "bottom": 66.5,
+        "height": 80,
+        "justifyContent": "center",
+        "position": "absolute",
+        "right": 52.5,
+        "width": 187.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      Create
+    </Text>
+  </View>
+</View>
+`;
